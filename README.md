@@ -24,7 +24,8 @@ Two configuration files, ~/opt/Analog_Bridge/Analog_Bridge.ini and ~/opt/MMDVM_B
 asdf
 
 ### ~/opt/MMDVM_Bridge/MMDVM_Bridge.ini
-asdf
+#### [General]
+Change `Callsign` and `ID`
 
 ## Running DVSwitch Server
 Run `sudo ./run_dvswitch.sh` to run both Analog_Bridge and MMDVM_Bridge. The Analog_Bridge application will run in the background and only the contents from MMDVM_Bridge will be shown.
