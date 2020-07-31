@@ -7,12 +7,9 @@ WARNING:
 - THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEED
 
 ## Prerequisites
-Run following lines:
+Run the following line:
 ```
 chmod +x install_dvswitch.sh
-chmod +x run_dvswitch.sh
-chmod +x stop_dvswitch.sh
-chmod +x uninstall_dvswitch.sh
 ```
 
 ## Installation
