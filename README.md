@@ -21,11 +21,18 @@ Run `sudo ./install_dvswitch.sh`. Python will be installed, and Analog_Bridge an
 Two configuration files, ~/opt/Analog_Bridge/Analog_Bridge.ini and ~/opt/MMDVM_Bridge/MMDVM_Bridge.ini needs to be changed
 
 ### ~/opt/Analog_Bridge/Analog_Bridge.ini
-asdf
+#### [AMBE_AUDIO]
+- Add your DMR ID to `gatewayDmrId=`
+- [Optional] You may need to change `repeaterID`
 
 ### ~/opt/MMDVM_Bridge/MMDVM_Bridge.ini
 #### [General]
-Change `Callsign` and `ID`
+- Change `Callsign` and `ID`
+#### [DMR]
+- Change `Enable=0` to `Enable=1`
+#### [DMR Network]
+- Change `Enable=0` to `Enable=1`
+- Change DMR server information
 
 ## Running DVSwitch Server
 Run `sudo ./run_dvswitch.sh` to run both Analog_Bridge and MMDVM_Bridge. The Analog_Bridge application will run in the background and only the contents from MMDVM_Bridge will be shown.
