@@ -15,4 +15,15 @@ Run following lines:
 `chmod +x uninstall_dvswitch.sh`
 
 ## Installation
+Run `sudo ./install_dvswitch.sh`. Python will be installed, and Analog_Bridge and MMDVM_Bridge will be installed under ~/opt
 
+## Running DVSwitch Server
+Run `sudo ./run_dvswitch.sh` to run both Analog_Bridge and MMDVM_Bridge. The Analog_Bridge application will run in the background and only the contents from MMDVM_Bridge will be shown.
+
+## Exiting application
+`Control-C` will **usually** terminate both applications, but sometimes the Analog_Bridge remains running in background. 
+
+Run `sudo ./stop_dvswitch.sh` to make sure both are terminated.
+
+## Uninstallation
+Run `sudo ./uninstall_dvswitch.sh` to remove the relevent folders in ~/opt
