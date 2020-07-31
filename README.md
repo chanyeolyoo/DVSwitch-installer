@@ -51,7 +51,7 @@ Run `sudo run_dvswitch` to run both Analog_Bridge and MMDVM_Bridge. The `Analog_
 ## Exiting application
 `Control-C` will **usually** terminate both applications, but sometimes the Analog_Bridge remains running in background. 
 
-Run `sudo stop_dvswitch.sh` to make sure both are terminated.
+Run `sudo stop_dvswitch` to make sure both are terminated.
 
 ## Uninstallation
-Run `sudo uninstall_dvswitch.sh` to remove the relevent folders in `/opt`
+Run `sudo uninstall_dvswitch` to remove the relevent folders in `/opt`
