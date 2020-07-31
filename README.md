@@ -1,2 +1,4 @@
 # DVSwitch-installer
 One-click installer for DVSwitch
+
+WARNING: THIS REPO IS BEING DEVELOPED AND TESTED NOW. NOTHING IS GUARANTEED
