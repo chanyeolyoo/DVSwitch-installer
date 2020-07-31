@@ -1,6 +1,8 @@
 # DVSwitch-installer
 One-click installer for DVSwitch
 
+Created by Chanyeol Yoo (VK2FAED)
+
 WARNING: THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEED
 
 ## Prerequisites
