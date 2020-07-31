@@ -5,7 +5,14 @@ WARNING: THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEE
 
 ## Prerequisites
 Run following lines:
-`asdf`
+
+`chmod +x install_dvswitch.sh`
+
+`chmod +x run_dvswitch.sh`
+
+`chmod +x stop_dvswitch.sh`
+
+`chmod +x uninstall_dvswitch.sh`
 
 ## Installation
 
