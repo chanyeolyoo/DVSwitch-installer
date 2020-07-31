@@ -24,6 +24,8 @@ Two configuration files, ~/opt/Analog_Bridge/Analog_Bridge.ini and ~/opt/MMDVM_B
 #### [AMBE_AUDIO]
 - Add your DMR ID to `gatewayDmrId=`
 - [Optional] You may need to change `repeaterID`
+#### [USRP]
+- Change to `txPort=50000` and `rxPort=50000`
 
 ### ~/opt/MMDVM_Bridge/MMDVM_Bridge.ini
 #### [General]
@@ -36,6 +38,11 @@ Two configuration files, ~/opt/Analog_Bridge/Analog_Bridge.ini and ~/opt/MMDVM_B
 
 ## Running DVSwitch Server
 Run `sudo ./run_dvswitch.sh` to run both Analog_Bridge and MMDVM_Bridge. The Analog_Bridge application will run in the background and only the contents from MMDVM_Bridge will be shown.
+
+## Setup on client
+- Select `USRP` for protocol
+- Change `Hostname` to the IP address (i.e., run `ifconfig` to find server's IP address
+- Change `Port` and `TX PORT` to `50000`
 
 ## Exiting application
 `Control-C` will **usually** terminate both applications, but sometimes the Analog_Bridge remains running in background. 
