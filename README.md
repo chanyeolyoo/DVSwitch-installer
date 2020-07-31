@@ -18,7 +18,9 @@ chmod +x uninstall_dvswitch.sh
 
 ## Installation
 Run 
-```sudo ./install_dvswitch```
+```
+sudo ./install_dvswitch
+```
 
 (If DVSwitch was ever installed on the targeted machine, run `sudo ./uninstall_dvswitch` to remove any folders from `/opt`)
 
