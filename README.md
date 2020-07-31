@@ -3,7 +3,9 @@ One-click installer for DVSwitch
 
 Created by Chanyeol Yoo (VK2FAED)
 
-WARNING: THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEED
+WARNING: 
+- THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEED
+- This installer does not rely on previous installations. However, 
 
 ## Prerequisites
 Run following lines:
@@ -15,7 +17,10 @@ chmod +x uninstall_dvswitch.sh
 ```
 
 ## Installation
-Run `sudo ./install_dvswitch.sh`. Python will be installed, and Analog_Bridge and MMDVM_Bridge will be installed under ~/opt
+Run 
+```sudo ./install_dvswitch```
+
+(If DVSwitch was ever installed on the targeted machine, run `sudo ./uninstall_dvswitch` to remove any folders from `/opt`)
 
 ## Configuration
 Two configuration files, ~/opt/Analog_Bridge/Analog_Bridge.ini and ~/opt/MMDVM_Bridge/MMDVM_Bridge.ini needs to be changed
