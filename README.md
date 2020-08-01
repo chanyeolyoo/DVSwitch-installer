@@ -3,9 +3,6 @@ One-click installer for DVSwitch. This installer is written for installing DVSwi
 
 Created by Chanyeol Yoo (VK2FAED)
 
-WARNING: 
-- THIS REPO IS CURRENTLY BEING DEVELOPED AND TESTED. NOTHING IS GUARANTEED
-
 ## Prerequisites
 Run the following line:
 ```
