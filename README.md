@@ -9,7 +9,7 @@ WARNING:
 ## Prerequisites
 Run the following line:
 ```
-chmod +x install_dvswitch.sh
+chmod +x install_dvswitch
 ```
 
 ## Installation
@@ -37,8 +37,8 @@ Two configuration files, `/opt/Analog_Bridge/Analog_Bridge.ini` and `/opt/MMDVM_
 #### [DMR Network]
 - Change `Enable=0` to `Enable=1`
 - Change DMR server information
--- For Australia, change to `Address=vkbm.repeaters.info` while leaving the others the same
--- For other countries, change it to appropriate parameters
+  - For Australia, change to `Address=vkbm.repeaters.info` while leaving the others the same
+  - For other countries, change it to appropriate parameters
 
 ## Running DVSwitch Server
 Run `sudo run_dvswitch` to run both Analog_Bridge and MMDVM_Bridge. The `Analog_Bridge` application will run in the background and only the contents from `MMDVM_Bridge` will be shown.
