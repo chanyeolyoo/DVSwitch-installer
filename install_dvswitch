@@ -9,6 +9,15 @@ chmod +x uninstall_dvswitch
 apt install python3
 apt install python
 
+wget http://dvswitch.org/install-dvswitch-repo -P /tmp
+chmod +x /tmp/install-dvswitch-repo
+/tmp/install-dvswitch-repo
+apt-get update
+apt-get install dvswitch
+
+rm -rf /opt/Analog_Bridge
+rm -rf /opt/MMDVM_Bridge
+
 git clone https://github.com/DVSwitch/Analog_Bridge $INSTALL_DIR/Analog_Bridge
 git clone https://github.com/DVSwitch/MMDVM_Bridge $INSTALL_DIR/MMDVM_Bridge
 
